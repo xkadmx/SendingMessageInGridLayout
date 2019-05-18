@@ -10,12 +10,19 @@
 
     <android.support.v7.widget.GridLayout
         android:layout_width="395dp"
-        android:layout_height="715dp">
+        android:layout_height="715dp"
+        app:columnCount="2"
+        tools:context=".MainActivity">
 
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/to" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_hint" />
 
     </android.support.v7.widget.GridLayout>
 
