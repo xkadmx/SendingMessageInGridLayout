@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SendingMessageInGridLayout</string>
-    <string name="to_hint">To:</string>
+    <string name="to_hint"> </string>
     <string name="to">To</string>
     <string name="send">SEND</string>
+    <string name="message" />
 </resources>

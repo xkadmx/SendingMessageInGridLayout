@@ -27,7 +27,9 @@
             android:hint="@string/to_hint"
             app:layout_row="0"
             app:layout_column="1"
-             />
+            android:inputType=""
+            android:importantForAutofill="no" tools:targetApi="o"
+            app:layout_gravity="fill_horizontal" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,8 +37,10 @@
             android:gravity="top"
             app:layout_row="1"
             app:layout_column="0"
-            android:columnSpan="2"
-            android:hint="@string/message"/>
+            android:hint="@string/message"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:inputType=""
+            app:layout_columnSpan="2" />
         <Button
             app:layout_column="0"
             android:layout_width="wrap_content"
