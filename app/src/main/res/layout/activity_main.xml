@@ -15,14 +15,36 @@
         tools:context=".MainActivity">
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/to" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/to_hint" />
+            android:text="@string/to"
+            app:layout_row="0"
+            app:layout_column="0"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_hint"
+            app:layout_row="0"
+            app:layout_column="1"
+             />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_gravity="fill"
+            android:gravity="top"
+            app:layout_row="1"
+            app:layout_column="0"
+            android:columnSpan="2"
+            android:hint="@string/message"/>
+        <Button
+            app:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_row="2"
+            app:layout_gravity="center_horizontal"
+            app:layout_columnSpan="2"
+            android:text="@string/send"/>
 
     </android.support.v7.widget.GridLayout>
 
